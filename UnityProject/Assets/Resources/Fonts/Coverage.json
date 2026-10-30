@@ -1,0 +1,82 @@
+{
+  "font": "Chinese.ttf",
+  "bytes": 131724,
+  "sha256": "24567184eed7d922ba90160491d1fe7316c6ea8f1109a628099e1ccf2ad167e3",
+  "fontTools": "4.67.0",
+  "unicodeCount": 600,
+  "glyphCount": 601,
+  "missingCodepoints": [],
+  "supplementalSymbols": [],
+  "outline": "TrueType; CFF curves converted with maximum error 1/1000 em",
+  "sourceFonts": [
+    {
+      "path": "/Applications/IntelliJ IDEA.app/Contents/plugins/android/lib/layoutlib/data/fonts/NotoSansCJK-Regular.ttc",
+      "fontNumber": 2,
+      "bytes": 18677700,
+      "sha256": "a4e43d2dfbc0bc4daaae2b79a441df2d6270be3b4a183bf2cc1037fb2d819644"
+    },
+    {
+      "path": "/Applications/IntelliJ IDEA.app/Contents/plugins/android/lib/layoutlib/data/fonts/NotoSansSymbols-Regular-Subsetted.ttf",
+      "bytes": 716528,
+      "sha256": "891d3cffa9d5a713e7613a8a877440ec4fa3725398fad2feebf442c5aab23983"
+    }
+  ],
+  "sourceText": [
+    {
+      "path": "Assets/Scripts/AudioOutputEvidence.cs",
+      "sha256": "967b0e55e6679e9de2553d46ea8710e1c9ea85e1b987b2a109fe3be1771e5a05"
+    },
+    {
+      "path": "Assets/Scripts/Chapter01Controller.cs",
+      "sha256": "a5106ec6ce3bb559de9501a491fb99b419a98a73c0c63f27dc5efebdc81c7523"
+    },
+    {
+      "path": "Assets/Scripts/Chapter01SoundEvent.cs",
+      "sha256": "e3935a7c9c366c2d81f12443d96057b7526bd752d937771f18a1390016cbea6c"
+    },
+    {
+      "path": "Assets/Scripts/Chapter01V004Story.cs",
+      "sha256": "02271a3cda52f4245914c2a076bef93e3a079da08721e22dc80bccf003794b0d"
+    },
+    {
+      "path": "Assets/Scripts/ChapterNodeGesture.cs",
+      "sha256": "53fc0c7e34ef50ace18585f68c88118357919182ccb91d57284eeb6b440d7d2d"
+    },
+    {
+      "path": "Assets/Scripts/MakubeXApp.cs",
+      "sha256": "3762c3a3fef4659affbdf58a7f9fd69f463275d588cfa982df0605978acd3e7b"
+    },
+    {
+      "path": "Assets/Scripts/MakubeXAudio.cs",
+      "sha256": "38f412dc18089928e847e3ecb3d039f81b49f9ecd874518c3036d252d37d6e92"
+    },
+    {
+      "path": "Assets/Scripts/MakubeXAudioCatalog.cs",
+      "sha256": "83445b3f4391ecbb0fa2722dc96bf3e308702b5819cc9dcdd93a6c38e42866c0"
+    },
+    {
+      "path": "Assets/Scripts/MakubeXAudioVerificationProbe.cs",
+      "sha256": "d097b01ba2342671a88d6b4eb3603bce705b67210f8da585152c23520faf490c"
+    },
+    {
+      "path": "Assets/Scripts/MemoryMapEntrance.cs",
+      "sha256": "7e520c18c28b3b22795729c12d3c4cf379e3b4ea08aa44af737a908d124489ad"
+    },
+    {
+      "path": "Assets/Scripts/MemoryMapLocalQAProbe.cs",
+      "sha256": "1400c233c9b08967cb47ad79018d945dd73cb96e07a2fec11a53d70e4d5961fa"
+    },
+    {
+      "path": "Assets/Scripts/PhaseOneV004QAProbe.cs",
+      "sha256": "95b86f7f17c144ccc40ba3abc4201ece1600c7967d740cc270b9fb356f5609c1"
+    },
+    {
+      "path": "Assets/Scripts/VerificationCaptureBridge.cs",
+      "sha256": "2e5aca3e3eb9b151e2afc1e512788f74443f838ca76fb6d286ce8f9c8fd4301d"
+    },
+    {
+      "path": "Docs/CONFIRMED_SOURCES.md",
+      "sha256": "7840d9b84b1d2c6c1d2730685aa981421f9eff243b88befbaba2608acb2dac06"
+    }
+  ]
+}

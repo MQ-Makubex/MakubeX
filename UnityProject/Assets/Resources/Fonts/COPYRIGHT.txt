@@ -1,0 +1,6 @@
+Copyright © 2014-2016 Adobe Systems Incorporated (http://www.adobe.com/).
+Copyright 2013 Google Inc. All Rights Reserved.
+
+Modified subset: MakubeX UI SC Regular.
+Subset, outline conversion and symbol combination remain under SIL OFL 1.1.
+See LICENSE.txt for the complete license.

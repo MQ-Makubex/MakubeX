@@ -1,0 +1,8 @@
+<linker>
+  <!-- CreatePrimitive attaches these internally before the placeholder removes them.
+       Keep them in IL2CPP players even though no scene serializes their types. -->
+  <assembly fullname="UnityEngine.PhysicsModule">
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
+  </assembly>
+</linker>

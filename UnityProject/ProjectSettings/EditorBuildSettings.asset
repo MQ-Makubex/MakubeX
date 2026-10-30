@@ -11,44 +11,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapter01_V010_Story.unity
     guid: e48119f3f8ca14c1b80b5d1e2419e4e9
-  - enabled: 1
-    path: Assets/Scenes/Entry_V009.unity
-    guid: d0a20e8758e72481f9d47a2d3c72b634
-  - enabled: 1
-    path: Assets/Scenes/Chapter01_V009_Story.unity
-    guid: af55cfffa04e14fddb888dab2e483b66
-  - enabled: 1
-    path: Assets/Scenes/Entry_V008.unity
-    guid: d8f00afa483384ac99b5bb11c7ec88ff
-  - enabled: 1
-    path: Assets/Scenes/Chapter01_V008_Story.unity
-    guid: f715ce3be9ad246e8aabeb662eff870f
-  - enabled: 1
-    path: Assets/Scenes/Entry_V007.unity
-    guid: 7f83dff5474ba45ec93a7ec5806e581c
-  - enabled: 1
-    path: Assets/Scenes/Chapter01_V007_Story.unity
-    guid: f46bc9292cc0f4e918f07ae09a6383b6
-  - enabled: 1
-    path: Assets/Scenes/Entry_V006.unity
-    guid: eb471c28f540e47e4a4135f0e090ddef
-  - enabled: 1
-    path: Assets/Scenes/Chapter01_V006_Story.unity
-    guid: 29180a140f4ee4102a03f2ef1319b059
-  - enabled: 1
-    path: Assets/Scenes/Entry_V005.unity
-    guid: 3017e433da09e4b9eb366a331bb9526d
-  - enabled: 1
-    path: Assets/Scenes/Chapter01_V005_Story.unity
-    guid: 39f59771ef2304918b0934668e4fe5ec
-  - enabled: 1
-    path: Assets/Scenes/Entry.unity
-    guid: 351a75b029a2f429a84e11f1de3c9fbb
-  - enabled: 1
-    path: Assets/Scenes/Chapter01_V004_Story.unity
-    guid: c829f0f6bf7d8421d974bd387dc8f1a2
-  - enabled: 1
-    path: Assets/Scenes/Chapter01.unity
-    guid: 7e307be0a0f0141db8b7447ae78b4f59
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}

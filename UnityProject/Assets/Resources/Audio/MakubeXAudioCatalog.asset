@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64a101fc7bd0942ac901daea4d95f03a, type: 3}
+  m_Name: MakubeXAudioCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::MakubeX.MakubeXAudioCatalog
+  mixer: {fileID: 24100000, guid: 8a0483b6f2cfc47619a12cd5fd4e152f, type: 2}
+  music: {fileID: 5604143097538538336, guid: 8a0483b6f2cfc47619a12cd5fd4e152f, type: 2}
+  ambienceOutside: {fileID: 7292064763299541177, guid: 8a0483b6f2cfc47619a12cd5fd4e152f, type: 2}
+  ambienceInside: {fileID: 4754522862898193258, guid: 8a0483b6f2cfc47619a12cd5fd4e152f, type: 2}
+  sfx: {fileID: -6474024914010647614, guid: 8a0483b6f2cfc47619a12cd5fd4e152f, type: 2}
+  mapLoop: {fileID: 8300000, guid: b416c3bf48e5c457491dc87bdb8b01f5, type: 3}
+  outsideLoop: {fileID: 8300000, guid: a6a93907761914eb4920cea07ea3940f, type: 3}
+  insideLoop: {fileID: 8300000, guid: 0a56498b07c4346b5aaac85556973c17, type: 3}
+  nameFragment: {fileID: 8300000, guid: 94a30a6b1aae34190907f3dbba5ab792, type: 3}
+  homeTheme: {fileID: 8300000, guid: 296b03720d3c44bdeb45ff6f5f968af9, type: 3}
+  doorOpen: {fileID: 8300000, guid: b3dd487c47570402d949ce669e17553d, type: 3}
+  doorClose: {fileID: 8300000, guid: 71407597cd18d4855a4a2c3e1faa6560, type: 3}
+  bag: {fileID: 8300000, guid: bc19f7c486b2442ddb094284acae629e, type: 3}
+  chair: {fileID: 8300000, guid: 13002ed3ec41841769fa4084a8ebb4f1, type: 3}
+  crt: {fileID: 8300000, guid: 887694b6d25ca4bfbaef40555e0124b8, type: 3}
+  pat: {fileID: 8300000, guid: 9cfba849ead3e4464ae90ee4a6a0c9a0, type: 3}
