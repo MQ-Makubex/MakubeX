@@ -1,13 +1,11 @@
-# MakubeX Chapter01 public playtest
+# v010 网页启动入口
 
-Compiled Unity v010 browser player with the 2026-10-29 art upgrade. Desktop WASD / hold right mouse to look / E to interact / ESC settings on the memory map. First visit downloads the game assets. Chapter progression stays in this browser's local storage.
+这里保留 v010 的启动页 HTML、样式、启动脚本、资源清单和启动流程测试。启动页等待玩家点击开始后加载 Unity WebGL，并显示下载和初始化进度。
 
-Only compiled browser player files belong in this repository. Unity/Blender source projects, source audio package and verification logs remain in the local workspace.
+`dist/resources.json` 是当时部署版本的资源清单，引用生成的 WebGL 文件和压缩分块；这些构建产物不包含在此目录中，因此此目录本身不能直接作为完整游戏运行。游戏工程源码位于 `../UnityProject/`。
 
-Resource binaries are gzip-compressed and split below the hosting asset size limit. The page assembles Blob URLs after native browser decompression. This preserves the built resources byte-for-byte; it does not run a substitute game.
+使用 Node.js 24 运行启动流程测试：
 
-Web entry: the approved cover appears first. Only Start loads the Unity loader, resource manifest and core player binaries. Download and engine initialization progress stays at the bottom of the cover. The single Start click is queued into Unity's `MakubeX App.StartFromWeb` method, which advances to the memory map after its artwork is ready. Loading errors keep the cover visible and offer a reload. The page starts no music before Start and attempts to quit its own player on pagehide.
-
-Run controller regression checks with Node 24: `node --test tests/launch.test.cjs`. Browser QA must additionally verify the real Unity splash and memory map; the controller fixture does not substitute for a Unity run.
-
-This directory publishes the v010 web entry source, its controller test, and the resource manifest used by that release. The manifest refers to generated Unity WebGL files and compressed chunks, which are not included here; it is a record of the deployed build rather than a standalone development server. The Unity game source is in `../UnityProject/`.
+```sh
+node --test WebLaunch/tests/launch.test.cjs
+```
