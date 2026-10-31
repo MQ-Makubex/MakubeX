@@ -13,3 +13,5 @@ v010 美术场景的 Blender 文件已发布在 [v010 美术源文件](https://g
 历史版本见 [Releases](https://github.com/MQ-Makubex/MakubeX/releases)。早期网页原型的原始目录缺少三张图片，归档中单独附有从 Unity 工程补配的对应原图及说明。
 
 项目当前试玩：<https://makubex.top/>。第一次加载需要下载游戏资源，建议使用电脑浏览器。
+
+`WebLaunch/` 展示 v010 网页入口 HTML、样式、启动脚本及测试；其中资源清单记录已部署构建，生成的 WebGL 资源和分块不包含在该目录中。

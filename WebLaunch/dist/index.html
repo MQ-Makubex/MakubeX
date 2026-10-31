@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="MakubeX 第一章《名字》电脑版试玩。点击开始，找回未读的记忆。">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="launch.css">
+  <title>MakubeX · 第一章试玩</title>
+</head>
+<body data-state="idle">
+  <canvas id="unity-canvas" width="1600" height="900" tabindex="-1" aria-label="MakubeX 游戏"></canvas>
+  <main id="cover" aria-label="MakubeX 开始页">
+    <div id="cover-art">
+      <img src="StreamingAssets/UI/HD_20261025/cover.png" alt="MakubeX：月光下的城市与少年" fetchpriority="high">
+      <button id="start" type="button" aria-label="开始"><span class="sr-only">开始</span></button>
+      <section id="load-panel" aria-label="游戏加载进度" hidden>
+        <div class="load-copy"><span id="status" role="status" aria-live="polite">正在准备…</span><span id="percent" aria-hidden="true">0%</span></div>
+        <progress id="progress" max="1" value="0" aria-label="资源加载进度"></progress>
+      </section>
+      <div id="error" role="alert" hidden><p id="error-message"></p><button id="retry" type="button">重新加载</button></div>
+    </div>
+  </main>
+  <script>
+    window.MakubeXBuild={
+      resourcesUrl:'resources.json',
+      loaderUrl:'Build/WebGL_ArtUpgradeV010_20261029.loader.js',
+      dataUrl:'Build/WebGL_ArtUpgradeV010_20261029.data',
+      frameworkUrl:'Build/WebGL_ArtUpgradeV010_20261029.framework.js',
+      codeUrl:'Build/WebGL_ArtUpgradeV010_20261029.wasm',
+      streamingAssetsUrl:'StreamingAssets',
+      companyName: "MakubeX",
+      productName: "MakubeX",
+      productVersion: "0.1.0"
+    };
+  </script>
+  <script src="launch.js" defer></script>
+</body>
+</html>

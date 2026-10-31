@@ -1,0 +1,26 @@
+:root{color-scheme:dark;font-family:Georgia,"Songti SC",serif;color:#ead6b4;background:#000}
+*{box-sizing:border-box}
+html,body{width:100%;height:100%;margin:0;overflow:hidden}
+[hidden]{display:none!important}
+#unity-canvas{display:block;width:100%;height:100%;outline:none;background:#000;visibility:hidden}
+body[data-state="player"] #unity-canvas{visibility:visible}
+#cover{position:fixed;inset:0;display:grid;place-items:center;background:#000}
+#cover-art{position:relative;width:min(100vw,177.6833156vh);aspect-ratio:1672/941;isolation:isolate}
+#cover-art>img{display:block;width:100%;height:100%;object-fit:contain}
+#start{position:absolute;left:12.1411%;top:46.0149%;width:16.4474%;height:5.4198%;padding:0;cursor:pointer;border:0;border-radius:2px;background:transparent;transition:background .18s,box-shadow .18s}
+#start:hover,#start:focus-visible{background:#f7dfb51c;box-shadow:0 0 24px #e9cf8b40;outline:2px solid #ead6b4;outline-offset:5px}
+#start:active{background:#f7dfb533}
+#start:disabled{cursor:default;outline:0;background:transparent;box-shadow:none}
+#load-panel{position:absolute;left:23%;right:23%;bottom:3.5%;padding:clamp(9px,1vw,17px) clamp(12px,1.5vw,25px);background:#050e1bea;border:1px solid #bca67e50;box-shadow:0 8px 40px #0005}
+.load-copy{display:flex;gap:12px;justify-content:space-between;align-items:baseline;font-size:clamp(11px,1.12vw,18px);line-height:1.6;letter-spacing:.05em}
+#status{min-width:0}
+#percent{font-variant-numeric:tabular-nums;flex-shrink:0}
+progress{display:block;appearance:none;width:100%;height:4px;margin-top:9px;border:0;background:#8094ad30;accent-color:#dfc692}
+progress::-webkit-progress-bar{background:#8094ad30}
+progress::-webkit-progress-value{background:#dfc692}
+progress::-moz-progress-bar{background:#dfc692}
+#error{position:absolute;left:23%;right:23%;bottom:3.5%;padding:18px 24px;background:#07101df5;border:1px solid #bca67e80;font:clamp(12px,1.2vw,18px)/1.6 system-ui,sans-serif}
+#error-message{margin:0 0 12px;white-space:pre-wrap;overflow-wrap:anywhere}
+#retry{padding:8px 22px;color:#ead6b4;background:#152438;border:1px solid #bca67e80;cursor:pointer;font:inherit}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(prefers-reduced-motion:reduce){#start{transition:none}}

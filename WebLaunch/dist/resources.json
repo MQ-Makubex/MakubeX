@@ -1,0 +1,65 @@
+{
+  "revision": "20261029-v010-art-upgrade",
+  "resources": {
+    "data": {
+      "original": "Build/WebGL_ArtUpgradeV010_20261029.data",
+      "bytes": 143417970,
+      "compressedBytes": 101112123,
+      "sha256": "4ac158c67af2b2529138005d3f84a84cb88efb26976ff529560e0abead831a5c",
+      "mime": "application/octet-stream",
+      "parts": [
+        {
+          "path": "Chunks/data-c08b8c7a6bab34fe9323-0.bin",
+          "bytes": 16777216
+        },
+        {
+          "path": "Chunks/data-80de045007ea123f7e67-1.bin",
+          "bytes": 16777216
+        },
+        {
+          "path": "Chunks/data-5ed8c73f9f1396a4c2b0-2.bin",
+          "bytes": 16777216
+        },
+        {
+          "path": "Chunks/data-fabab109cbdad00dff9b-3.bin",
+          "bytes": 16777216
+        },
+        {
+          "path": "Chunks/data-d860ac244d65e0a5fe5b-4.bin",
+          "bytes": 16777216
+        },
+        {
+          "path": "Chunks/data-bb629108caa6071b305b-5.bin",
+          "bytes": 16777216
+        },
+        {
+          "path": "Chunks/data-0881bb07615eed596162-6.bin",
+          "bytes": 448827
+        }
+      ]
+    },
+    "wasm": {
+      "original": "Build/WebGL_ArtUpgradeV010_20261029.wasm",
+      "bytes": 27499293,
+      "compressedBytes": 7760998,
+      "sha256": "c359833d8e684ec4a34954097b97fa54e1e9dfd149b785fc074c159fb973892f",
+      "mime": "application/wasm",
+      "parts": [
+        {
+          "path": "Chunks/wasm-34a241ac28b9efd348b0-0.bin",
+          "bytes": 7760998
+        }
+      ]
+    }
+  },
+  "artwork": [
+    {
+      "path": "StreamingAssets/UI/HD_20261025/memory-map.png",
+      "bytes": 2767861
+    },
+    {
+      "path": "StreamingAssets/UI/HD_20261025/chapter01-loading.png",
+      "bytes": 2895508
+    }
+  ]
+}
